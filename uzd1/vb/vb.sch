@@ -1,0 +1,202 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5F75CB33
+P 3300 2100
+F 0 "D1" V 3339 1983 50  0000 R CNN
+F 1 "LED" V 3248 1983 50  0000 R CNN
+F 2 "" H 3300 2100 50  0001 C CNN
+F 3 "~" H 3300 2100 50  0001 C CNN
+	1    3300 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5F75CF5B
+P 4300 2100
+F 0 "D2" V 4339 1983 50  0000 R CNN
+F 1 "LED" V 4248 1983 50  0000 R CNN
+F 2 "" H 4300 2100 50  0001 C CNN
+F 3 "~" H 4300 2100 50  0001 C CNN
+	1    4300 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5F75D783
+P 4300 2700
+F 0 "R4" H 4359 2746 50  0000 L CNN
+F 1 "470R" H 4359 2655 50  0000 L CNN
+F 2 "" H 4300 2700 50  0001 C CNN
+F 3 "~" H 4300 2700 50  0001 C CNN
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5F75DA29
+P 4000 2700
+F 0 "R3" H 4059 2746 50  0000 L CNN
+F 1 "47K" H 4059 2655 50  0000 L CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "~" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F75DE35
+P 3300 2700
+F 0 "R1" H 3359 2746 50  0000 L CNN
+F 1 "470R" H 3359 2655 50  0000 L CNN
+F 2 "" H 3300 2700 50  0001 C CNN
+F 3 "~" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F75E18E
+P 3600 2700
+F 0 "R2" H 3659 2746 50  0000 L CNN
+F 1 "47K" H 3659 2655 50  0000 L CNN
+F 2 "" H 3600 2700 50  0001 C CNN
+F 3 "~" H 3600 2700 50  0001 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5F75E8B2
+P 3450 3200
+F 0 "C1" V 3702 3200 50  0000 C CNN
+F 1 "47 uF" V 3611 3200 50  0000 C CNN
+F 2 "" H 3450 3200 50  0001 C CNN
+F 3 "~" H 3450 3200 50  0001 C CNN
+	1    3450 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5F75EC5F
+P 4150 3200
+F 0 "C2" V 3898 3200 50  0000 C CNN
+F 1 "47 uF" V 3989 3200 50  0000 C CNN
+F 2 "" H 4150 3200 50  0001 C CNN
+F 3 "~" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5F75F23D
+P 2450 3100
+F 0 "BT1" H 2558 3146 50  0000 L CNN
+F 1 "9V" H 2558 3055 50  0000 L CNN
+F 2 "" V 2450 3160 50  0001 C CNN
+F 3 "~" V 2450 3160 50  0001 C CNN
+	1    2450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2900 2450 1950
+Wire Wire Line
+	2450 1950 3300 1950
+Wire Wire Line
+	3300 1950 3600 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 2800 3300 3200
+Wire Wire Line
+	3600 3200 3600 2800
+Wire Wire Line
+	3600 2600 3600 1950
+Connection ~ 3600 1950
+Wire Wire Line
+	3600 1950 4000 1950
+Wire Wire Line
+	4000 2600 4000 1950
+Connection ~ 4000 1950
+Wire Wire Line
+	4000 1950 4300 1950
+Wire Wire Line
+	4300 2250 4300 2600
+Wire Wire Line
+	4300 2800 4300 3200
+Wire Wire Line
+	4000 2800 4000 3200
+Wire Wire Line
+	2450 3300 2450 3600
+Connection ~ 3600 3200
+Wire Wire Line
+	3300 2250 3300 2600
+$Comp
+L CA3045:CA3045 CA1
+U 1 1 5F7E2A84
+P 3700 4050
+F 0 "CA1" V 3746 3572 50  0000 R CNN
+F 1 "CA3045" V 3655 3572 50  0000 R CNN
+F 2 "" H 3700 4050 50  0001 C CNN
+F 3 "" H 3700 4050 50  0001 C CNN
+	1    3700 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 3200 3300 3500
+Wire Wire Line
+	3300 3500 3500 3500
+Wire Wire Line
+	3500 3500 3500 3700
+Connection ~ 3300 3200
+Wire Wire Line
+	3600 3200 3600 3450
+Wire Wire Line
+	3600 3450 4000 3450
+Wire Wire Line
+	4000 3450 4000 3700
+Wire Wire Line
+	4000 3200 3700 3200
+Wire Wire Line
+	3700 3200 3700 3700
+Connection ~ 4000 3200
+Wire Wire Line
+	4300 3200 4300 3550
+Wire Wire Line
+	4300 3550 3800 3550
+Wire Wire Line
+	3800 3550 3800 3700
+Connection ~ 4300 3200
+Wire Wire Line
+	3600 3700 3600 3650
+Wire Wire Line
+	3600 3650 2450 3650
+Wire Wire Line
+	3900 3700 3900 3600
+Wire Wire Line
+	3900 3600 2450 3600
+Connection ~ 2450 3600
+Wire Wire Line
+	2450 3600 2450 3650
+NoConn ~ 4100 4400
+NoConn ~ 4000 4400
+NoConn ~ 3900 4400
+NoConn ~ 3800 4400
+NoConn ~ 3700 4400
+NoConn ~ 3600 4400
+NoConn ~ 4100 3700
+NoConn ~ 3500 4400
+$EndSCHEMATC
