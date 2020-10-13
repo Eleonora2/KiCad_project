@@ -1,0 +1,96 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 5F869CD9
+P 4900 4350
+F 0 "#PWR0102" H 4900 4100 50  0001 C CNN
+F 1 "GNDREF" H 4905 4177 50  0000 C CNN
+F 2 "" H 4900 4350 50  0001 C CNN
+F 3 "" H 4900 4350 50  0001 C CNN
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C5
+U 1 1 5F869FC9
+P 5650 3900
+F 0 "C5" H 5765 3946 50  0000 L CNN
+F 1 "0,01 uF" H 5765 3855 50  0000 L CNN
+F 2 "" H 5650 3900 50  0001 C CNN
+F 3 "~" H 5650 3900 50  0001 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 5F86A3F4
+P 4100 3900
+F 0 "C4" H 4215 3946 50  0000 L CNN
+F 1 "0,01 uF" H 4215 3855 50  0000 L CNN
+F 2 "" H 4100 3900 50  0001 C CNN
+F 3 "~" H 4100 3900 50  0001 C CNN
+	1    4100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U2
+U 1 1 5F86A8D3
+P 4900 3700
+F 0 "U2" H 4900 3942 50  0000 C CNN
+F 1 "L7805" H 4900 3851 50  0000 C CNN
+F 2 "" H 4925 3550 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4900 3650 50  0001 C CNN
+	1    4900 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3750 4100 3700
+Wire Wire Line
+	4100 3700 4600 3700
+Wire Wire Line
+	5200 3700 5650 3700
+Wire Wire Line
+	5650 3700 5650 3750
+Wire Wire Line
+	5650 3700 6000 3700
+Connection ~ 5650 3700
+Wire Wire Line
+	4100 4050 4100 4200
+Wire Wire Line
+	4100 4200 4900 4200
+Wire Wire Line
+	4900 4200 4900 4000
+Wire Wire Line
+	4900 4200 5650 4200
+Wire Wire Line
+	5650 4200 5650 4050
+Connection ~ 4900 4200
+Wire Wire Line
+	4900 4200 4900 4350
+Wire Wire Line
+	4100 3700 3800 3700
+Connection ~ 4100 3700
+Wire Wire Line
+	5650 4200 6000 4200
+Connection ~ 5650 4200
+Text HLabel 6000 3700 2    50   Input ~ 0
+3,3V
+Text HLabel 6000 4200 2    50   Input ~ 0
+GND
+Text HLabel 3800 3700 0    50   Input ~ 0
+VCC
+$EndSCHEMATC
