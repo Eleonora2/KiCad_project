@@ -1,0 +1,201 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F8E88EA
+P 4450 3150
+F 0 "BT?" H 4568 3246 50  0000 L CNN
+F 1 "Battery_Cell" H 4568 3155 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 4450 3210 50  0001 C CNN
+F 3 "https://www.distrelec.de/Web/Downloads/2-/lf/SMTU2032-LF.pdf" V 4450 3210 50  0001 C CNN
+	1    4450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8E923C
+P 4450 2600
+F 0 "#PWR?" H 4450 2450 50  0001 C CNN
+F 1 "+3.3V" H 4465 2773 50  0000 C CNN
+F 2 "" H 4450 2600 50  0001 C CNN
+F 3 "" H 4450 2600 50  0001 C CNN
+	1    4450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F8E9846
+P 4450 3500
+F 0 "#PWR?" H 4450 3250 50  0001 C CNN
+F 1 "GNDREF" H 4455 3327 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2600 4450 2950
+Wire Wire Line
+	4450 3250 4450 3500
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F8EAB7D
+P 4750 3000
+F 0 "BT?" H 4868 3096 50  0000 L CNN
+F 1 "Battery_Cell" H 4868 3005 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 4750 3060 50  0001 C CNN
+F 3 "https://www.distrelec.de/Web/Downloads/2-/lf/SMTU2032-LF.pdf" V 4750 3060 50  0001 C CNN
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8EAB83
+P 4750 2450
+F 0 "#PWR?" H 4750 2300 50  0001 C CNN
+F 1 "+3.3V" H 4765 2623 50  0000 C CNN
+F 2 "" H 4750 2450 50  0001 C CNN
+F 3 "" H 4750 2450 50  0001 C CNN
+	1    4750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F8EAB89
+P 4750 3350
+F 0 "#PWR?" H 4750 3100 50  0001 C CNN
+F 1 "GNDREF" H 4755 3177 50  0000 C CNN
+F 2 "" H 4750 3350 50  0001 C CNN
+F 3 "" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2450 4750 2800
+Wire Wire Line
+	4750 3100 4750 3350
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F8EB21E
+P 3850 3450
+F 0 "BT?" H 3968 3546 50  0000 L CNN
+F 1 "Battery_Cell" H 3968 3455 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 3850 3510 50  0001 C CNN
+F 3 "https://www.distrelec.de/Web/Downloads/2-/lf/SMTU2032-LF.pdf" V 3850 3510 50  0001 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8EB224
+P 3850 2900
+F 0 "#PWR?" H 3850 2750 50  0001 C CNN
+F 1 "+3.3V" H 3865 3073 50  0000 C CNN
+F 2 "" H 3850 2900 50  0001 C CNN
+F 3 "" H 3850 2900 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F8EB22A
+P 3850 3800
+F 0 "#PWR?" H 3850 3550 50  0001 C CNN
+F 1 "GNDREF" H 3855 3627 50  0000 C CNN
+F 2 "" H 3850 3800 50  0001 C CNN
+F 3 "" H 3850 3800 50  0001 C CNN
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2900 3850 3250
+Wire Wire Line
+	3850 3550 3850 3800
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F8EBB13
+P 5050 2900
+F 0 "BT?" H 5168 2996 50  0000 L CNN
+F 1 "Battery_Cell" H 5168 2905 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 5050 2960 50  0001 C CNN
+F 3 "https://www.distrelec.de/Web/Downloads/2-/lf/SMTU2032-LF.pdf" V 5050 2960 50  0001 C CNN
+	1    5050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8EBB19
+P 5050 2350
+F 0 "#PWR?" H 5050 2200 50  0001 C CNN
+F 1 "+3.3V" H 5065 2523 50  0000 C CNN
+F 2 "" H 5050 2350 50  0001 C CNN
+F 3 "" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F8EBB1F
+P 5050 3250
+F 0 "#PWR?" H 5050 3000 50  0001 C CNN
+F 1 "GNDREF" H 5055 3077 50  0000 C CNN
+F 2 "" H 5050 3250 50  0001 C CNN
+F 3 "" H 5050 3250 50  0001 C CNN
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2350 5050 2700
+Wire Wire Line
+	5050 3000 5050 3250
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F8EC4BE
+P 4150 3300
+F 0 "BT?" H 4268 3396 50  0000 L CNN
+F 1 "Battery_Cell" H 4268 3305 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 4150 3360 50  0001 C CNN
+F 3 "https://www.distrelec.de/Web/Downloads/2-/lf/SMTU2032-LF.pdf" V 4150 3360 50  0001 C CNN
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8EC4C4
+P 4150 2750
+F 0 "#PWR?" H 4150 2600 50  0001 C CNN
+F 1 "+3.3V" H 4165 2923 50  0000 C CNN
+F 2 "" H 4150 2750 50  0001 C CNN
+F 3 "" H 4150 2750 50  0001 C CNN
+	1    4150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F8EC4CA
+P 4150 3650
+F 0 "#PWR?" H 4150 3400 50  0001 C CNN
+F 1 "GNDREF" H 4155 3477 50  0000 C CNN
+F 2 "" H 4150 3650 50  0001 C CNN
+F 3 "" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2750 4150 3100
+Wire Wire Line
+	4150 3400 4150 3650
+$EndSCHEMATC
