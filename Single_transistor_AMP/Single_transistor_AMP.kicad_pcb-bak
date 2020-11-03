@@ -22,8 +22,6 @@
 
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu power)
-    (2 In2.Cu power)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -105,15 +103,6 @@
   (net 0 "")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
-    (trace_width 0.25)
-    (via_dia 0.8)
-    (via_drill 0.4)
-    (uvia_dia 0.3)
-    (uvia_drill 0.1)
-  )
-
-  (net_class Power ""
     (clearance 0.2)
     (trace_width 0.25)
     (via_dia 0.8)
